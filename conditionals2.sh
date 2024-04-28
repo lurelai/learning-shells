@@ -14,7 +14,6 @@ echo -e "\n"
 
 echo -e "Second form"
 # Form 2
-# It is legacy, the flag "-a" probaly will have suport for a long time but the "Form 3" is better then it
 if [ $(( $n1 % 2 )) = 0 -a $(( $n2 % 2 )) = 0 ];
 then
 	echo all of $n1 and $n2 are even numbers
@@ -25,7 +24,7 @@ echo -e "\n"
 echo -e "Third form"
 # Form 3
 # It only works in the mordern shells, I tried it with the sh but it don't work
-# Be atenttion, the second "[" needs to be together with the first "["
+# Pay atenttion, the second "[" needs to be together with the first "["
 if [[ $(( $n1 % 2 )) == 0 && $(( $n2 % 2 )) == 0 ]];
 then
 	echo all of $n1 and $n2 are even numbers
