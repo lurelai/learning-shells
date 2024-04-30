@@ -29,4 +29,8 @@
     *   **`a[0]=element1; a[1]=element2; a[2]=element3`**: Set an array of elements. (same of the one before)
     *   **`hello[teste]=ola`**: Set an "object", you can acess using `echo ${hello[teste]}`. PS: It need the "declare" to work, like: `declare -A hello`
 
+* **Bash support this kind of expansions**:
+    * **echo ${var:0:0}**: If the first delimitator equals 0, the period will be like "[0, n[", if it's bigger then, it will be like "[>0, n]"
+
+
 
