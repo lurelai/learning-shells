@@ -11,6 +11,11 @@
 * **Variables/expansions**
     * **$!**: show the last background-process' id who is running in the shell
 
+    * **$$**: show the pid of the current shell
+    * **$SHLVL**: show the current level of the shell
+    * **$BASHPID**: a special pid of the bash, it's different in every new sub-shells or child shells
+    * **()**: separe commands and see them as a sub-shell
+
     * **(( expression ))**: It's used to make numerical expressions. ex: `(( a = 10 + 10 )); echo $a # 20` 
 
     * **arguments**: 
